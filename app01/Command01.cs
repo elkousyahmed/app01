@@ -17,8 +17,8 @@ namespace app01
             var uidoc = commandData.Application.ActiveUIDocument;
             var doc = uidoc.Document;
 
-           // Transaction t = new Transaction(doc);
-           // t.Start("do somthing");
+            Transaction t = new Transaction(doc);
+            t.Start("do somthing");
 
             Level lv = Level.Create(doc, 100);
             lv.Name = "new levelll";
@@ -44,7 +44,7 @@ namespace app01
 
             ViewSheet nsheet = ViewSheet.Create(doc,collector2.FirstElementId());
 
-           // t.Commit();
+            t.Commit();
 
             return Result.Succeeded;
 
