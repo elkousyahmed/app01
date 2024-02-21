@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		
+		<Text>command try 01</Text>
+		
+		<Assembly>app01.dll</Assembly>
+		<FullClassName>app01.Command01</FullClassName>
+		
+		<Description>Show Hello World.</Description>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+		
+		<AddInId>
+			1E066CE5-6736-4051-929E-1825DBA5288E
+		</AddInId>
+		
+		<VendorId>BSS</VendorId>
+		<VendorDescription>baa.bss</VendorDescription>
+	</AddIn>
+</RevitAddIns>
